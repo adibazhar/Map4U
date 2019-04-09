@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">Map2U</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="dialog_title">Select date and time</string>
+
+    <string-array name="format">
+        <item>GMT-8</item>
+        <item>UTC</item>
+    </string-array>
+
+    <string-array name="GMT_first_day_time">
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+
+    </string-array>
+
+    <string-array name="Gmt_last_day_time">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+    </string-array>
+
+    <string-array name="utc_first_day">
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+
+    <string-array name="utc_last_day">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+    </string-array>
+
+    <string-array name="Basemaps">
+        <item>DARK GRAY CANVAS VECTOR</item>
+        <item>IMAGERY</item>
+        <item>IMAGERY WITH LABELS</item>
+        <item>IMAGERY WITH LABELS VECTOR</item>
+        <item>LIGHT GRAY CANVAS</item>
+        <item>LIGHT GRAY CANVAS VECTOR</item>
+        <item>NATIONAL GEOGRAPHIC</item>
+        <item>NAVIGATION VECTOR</item>
+        <item>OCEANS </item>
+        <item>OPEN STREET MAP</item>
+        <item>STREETS </item>
+        <item>STREETS NIGHT VECTOR</item>
+        <item>STREETS VECTOR </item>
+        <item>STREETS WITH RELIEF VECTOR</item>
+        <item>TERRAIN WITH LABELS</item>
+        <item>TERRAIN WITH LABELS VECTOR </item>
+        <item>TOPOGRAPHIC </item>
+        <item>TOPOGRAPHIC VECTOR  </item>
+
+    </string-array>
+
+    <string-array name="temp_color">
+        <item>#c0c0c0</item>
+        <item>#9400d3</item>
+        <item>#dda0dd</item>
+        <item>#b22121</item>
+        <item>#ff4500</item>
+        <item>#db7093</item>
+        <item>#d2691b</item>
+        <item>#daa521</item>
+        <item>#ffdead</item>
+        <item>#ffff00</item>
+        <item>#008000</item>
+        <item>#6b8e21</item>
+        <item>#adff2e</item>
+        <item>#0000ff</item>
+        <item>#1b90ff</item>
+        <item>#00ffff</item>
+        <item>#afeeee</item>
+        <item>#ffffff</item>
+    </string-array>
+    <string-array name="temp_desc">
+        <item>>40</item>
+        <item>\u0020 40</item>
+        <item>\u0020 38</item>
+        <item>\u0020 36</item>
+        <item>\u0020 34</item>
+        <item>\u0020 32</item>
+        <item>\u0020 30</item>
+        <item>\u0020 28</item>
+        <item>\u0020 26</item>
+        <item>\u0020 24</item>
+        <item>\u0020 22</item>
+        <item>\u0020 20</item>
+        <item>\u0020 18</item>
+        <item>\u0020 16</item>
+        <item>\u0020 14</item>
+        <item>\u0020 12</item>
+        <item>\u0020 10</item>
+        <item>\u003c10</item>
+    </string-array>
+
+    <string-array name="humidityColor">
+        <item>#1468c1</item>
+        <item>#14b0c1</item>
+        <item>#0b9175</item>
+        <item>#14c19c</item>
+        <item>#14c13d</item>
+        <item>#62c114</item>
+        <item>#a2c114</item>
+        <item>#dd7777</item>
+        <item>#dd3a3a</item>
+        <item>#b50b0b</item>
+        <item>#ffffff</item>
+    </string-array>
+
+    <string-array name="humidityDesc">
+        <item>\u0020 100</item>
+        <item>\u0020 95</item>
+        <item>\u0020 90</item>
+        <item>\u0020 85</item>
+        <item>\u0020 80</item>
+        <item>\u0020 75</item>
+        <item>\u0020 70</item>
+        <item>\u0020 65</item>
+        <item>\u0020 60</item>
+        <item>\u0020 55</item>
+        <item>\u003c50</item>
+    </string-array>
+
+    <string-array name="rainColor">
+        <item>#808080</item>
+        <item>#c0c0c0</item>
+        <item>#9400d3</item>
+        <item>#ee82ee</item>
+        <item>#b22121</item>
+        <item>#ff0000</item>
+        <item>#f08080</item>
+        <item>#b8860b</item>
+        <item>#ff8c00</item>
+        <item>#ffd700</item>
+        <item>#ffff00</item>
+        <item>#218b21</item>
+        <item>#31cd31</item>
+        <item>#7cfc00</item>
+        <item>#00fa9a</item>
+        <item>#0000ff</item>
+        <item>#1b90ff</item>
+        <item>#00bfff</item>
+        <item>#00ffff</item>
+        <item>#e5eff7</item>
+    </string-array>
+
+    <string-array name="rainDesc">
+        <item>>100</item>
+        <item>\u0020 100</item>
+        <item>\u0020 90</item>
+        <item>\u0020 80</item>
+        <item>\u0020 70</item>
+        <item>\u0020 65</item>
+        <item>\u0020 60</item>
+        <item>\u0020 55</item>
+        <item>\u0020 50</item>
+        <item>\u0020 45</item>
+        <item>\u0020 40</item>
+        <item>\u0020 35</item>
+        <item>\u0020 30</item>
+        <item>\u0020 25</item>
+        <item>\u0020 20</item>
+        <item>\u0020 15</item>
+        <item>\u0020 10</item>
+        <item>\u0020 5</item>
+        <item>\u0020 2</item>
+        <item>\u0020 1</item>
+    </string-array>
+
+    <string-array name="windColor">
+        <item>#f426ed</item>
+        <item>#f47126</item>
+        <item>#a7e00b</item>
+        <item>#0be0c0</item>
+        <item>#0b92e0</item>
+        <item>#4d4d4d</item>
+    </string-array>
+
+    <string-array name="windDesc">
+        <item>>10 Knot</item>
+        <item>\u0020 10 Knot</item>
+        <item>\u0020 8 Knot</item>
+        <item>\u0020 6 Knot</item>
+        <item>\u0020 4 Knot</item>
+        <item>\u003c2 Knot</item>
+    </string-array>
+</resources>

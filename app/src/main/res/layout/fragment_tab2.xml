@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/backgroundhome2">
+
+    <TextView
+        android:id="@+id/city_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/selectCity"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       />
+
+    <Button
+        android:id="@+id/selectCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Search City"
+        android:textStyle="italic"
+        android:textSize="11dp"
+        android:textColor="#FF0000"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle"
+
+        />
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/city_field"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="@font/helveticaneue_ultra_lig_ext"/>
+
+
+
+    <TextView
+        android:id="@+id/weatherTv"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weather_icon"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:layout_marginStart="8dp"
+        android:textSize="38sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="@font/helveticaneue_thin"/>
+
+   <!-- <TextView
+        android:textAlignment="center"
+        android:id="@+id/weatherDesc"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="8dp"
+        android:text=""
+        android:textSize="30sp"
+        android:layout_below="@+id/weatherTv"
+        android:fontFamily="@font/helveticaneue_thin"/> !-->
+
+    <TextView
+        android:id="@+id/weather_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/timeTv"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="100sp"
+        />
+
+
+
+
+
+
+</RelativeLayout>
